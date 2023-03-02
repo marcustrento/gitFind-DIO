@@ -1,0 +1,88 @@
+.content {
+    position: relative;
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    height: 80vh;
+    position: absolute;
+    left: 0;
+    margin: 40px -250px;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.info {
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+input {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    width: 84%;
+    min-width: 250px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+button {
+    border: 1px solid #999999;
+    border-radius: 22px;
+    background: #2D333B;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-right: 12px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #2D333B90;
+}
+
+.profile {
+    display: flex;
+    margin: 40px 0;
+}
+
+.profile h3 {
+    color: #999999;
+    font-size: 24px;
+}
+
+.profile p {
+    color: #999999;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.profile span {
+    display: block;
+    color: #999999;
+    font-size: 12px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    border: 2px solid #E5E5E5;
+    margin-right: 32px;
+}
+
+.repository {
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 12px 0;
+    text-align: center;
+}
